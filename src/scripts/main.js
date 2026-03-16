@@ -32,6 +32,7 @@ document.addEventListener('click', (e) => {
     topPos = maxTop;
   }
 
+  spider.style.position = 'absolute';
   spider.style.left = leftPos + 'px';
   spider.style.top = topPos + 'px';
 });
